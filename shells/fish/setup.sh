@@ -22,5 +22,8 @@ curl -s "https://get.sdkman.io" | bash
 # Install SDKMAN fish plugin
 fish -c "fisher install reitzig/sdkman-for-fish@v1.4.0"
 
+# Change fish settings
+fish -c "set -U fish_color_command green"
+
 # Switch to fish shell
 exec fish
